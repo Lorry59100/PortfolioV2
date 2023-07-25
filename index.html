@@ -2,9 +2,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/f42724b8b3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="public/js/script.js"></script>
+    <title>Carrel Lorry</title>
 </head>
 <body>
     
+    <div class="grid-container">
+    <!--HEADER-->
+    <header>
+        <section class="info">
+            <h1>Carrel Lorry</h1>
+            <h2>Développeur Web</h2>
+            <h4>lorrycarrel@hotmail.com  / 07.66.85.97.92 </h4>
+            <h4> 17 rue Isabeau de Roubaix. 59100 ROUBAIX / <span id="age"></span></h4>
+            <h4 class="secret-link"><a href="https://lorry59100.github.io/portfolio/">Try the old version of this ?</a></h4>
+        </section>
+        <section class="summary">
+            <h4><a href="#apropos" class="active">A propos</a></h4>
+            <h4><a href="#experiences">Expériences</a></h4>
+            <h4><a href="#projets">Projets</a></h4>
+        </section>
+        <section class="icons">
+            <ul>
+                <li><a href="https://github.com/Lorry59100" class="icon-link"><i class="fa-brands fa-github fa-3x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/lorry-carrel-65a77a1a1/" class="icon-link"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
+            </ul>
+        </section>
+    </header>
+    <!--MAIN-->
+    <main>
+        <div class="radial-light"></div>
+        <article>
+        <div class="avatar">
+            <img src="public/img/Photo.jpg" alt="">
+        </div>
+            <h2 id="apropos">A propos</h2>
+            <p>Passionné de jeux vidéos depuis mon enfance et de BD depuis mon adolescence, je suis sensible à toute forme d'art. 
+                Ayant l'esprit créatif et curieux, je me suis ouvert et formé depuis peu à la programmation. 
+                Certification back-end et front-end obtenues.Titre professionel obtenu. <span class="important">En recherche d'emploi.</span></p>
+        </article>
+        <h2 id="experiences">Expériences</h2>
+    <a href="http://www.one4all.global/">
+        <article class="card">
+            <span><h5>Avril 2022 - juillet 2022</h5></span>
+            <div class="content">
+                <h4>Stage PHP chez #One4all</h4>
+                <p>Conception d'un site de don pour l'Ukraine visant à aider des causes humanitaires.Travail en équipe pour collaborer efficacement sur le projet.
+                    Mise en place d'un module de paiement sécurisé en utilisant Stripe pour faciliter les dons
+                    en ligne.</p>
+                    <div class="buttons">
+                        <button class="btn-custom">HTML</button>
+                        <button class="btn-custom">CSS</button>
+                        <button class="btn-custom">Symfony</button>
+                        <button class="btn-custom">ReactJs</button>
+                        <button class="btn-custom">Postman</button>
+                        <button class="btn-custom">Stripe</button>
+                        <button class="btn-custom">Travail en équipe</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <a href="">
+        <article class="card">
+            <span><h5>Août 2021 - septembre 2021</h5></span>
+            <div class="content">
+                <h4>Agent de fabrication en imprimerie chez SIFA</h4>
+                <p>Repiquage en flexographie.</p>
+                    <div class="buttons">
+                        <button class="btn-custom">Excel</button>
+                        <button class="btn-custom">Gestion machines</button>
+                        <button class="btn-custom">Logiciels d'impression</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <a href="https://afrikannonces.ci/">
+        <article class="card">
+            <span><h5>Octobre 2020 - novembre 2020</h5></span>
+            <div class="content">
+                <h4>Stage PHP chez LN Developpement</h4>
+                <p>Conception d'un site web de petites annonces africaines. Création d'un formulaire d'inscription et mise en place de l'espace de connexion et de déconnexion. Utilisation du framework Bootstrap pour améliorer l'aspect visuel du site. Mise en œuvre de requêtes AJAX pour rendre les champs select dynamiques. Développement d'une interface d'administration pour gérer les annonces et les utilisateurs.</p>
+                    <div class="buttons">
+                        <button class="btn-custom">HTML</button>
+                        <button class="btn-custom">CSS</button>
+                        <button class="btn-custom">PHP</button>
+                        <button class="btn-custom">Javascript</button>
+                        <button class="btn-custom">Bootstrap</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <a href="">
+        <article class="card">
+            <span><h5>2010 à 2019</h5></span>
+            <div class="content">
+                <h4>A.E.S.H dans diverses écoles et animateur dans diverses associations</h4>
+                <p>Encadrement d'enfants en difficulté, soutien scolaire, sorties. <br>
+                Encadrement d'adultes en situation de handicap, organisation d'activités, sorties.</p>
+                    <div class="buttons">
+                        <button class="btn-custom">Pédagogie différenciée</button>
+                        <button class="btn-custom">Communication adaptée</button>
+                        <button class="btn-custom">Travail en équipe</button>
+                        <button class="btn-custom">Patience</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <a href="">
+        <article class="card">
+            <span><h5>2008 à 2009</h5></span>
+            <div class="content">
+                <h4> Maquettiste P.A.O pour la société Métive Avenue</h4>
+                <p>Conception de maquettes et création de supports imprimable. Retouche photos</p>
+                    <div class="buttons">
+                        <button class="btn-custom">Photoshop</button>
+                        <button class="btn-custom">Illustrator</button>
+                        <button class="btn-custom">QuarkXPress</button>
+                        <button class="btn-custom">Détourage</button>
+                        <button class="btn-custom">Recadrage</button>
+                        <button class="btn-custom">Chromie</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <h2 id="projets">Projets</h2>
+    <a href="https://beercorp.fr/">
+        <article class="card">
+            <span class="miniature"><img src="public/img/BeercorpMini.jpg" alt=""></span>
+            <div class="content">
+                <h4>Beercorp.fr</h4>
+                <p>Création d'un site vitrine de guilde Dofus Touch. Formulaire d'incription/connexion. 
+                    Interface d'administration. Barre de recherche. Formulaire d'ajout d'événements</p>
+                    <div class="buttons">
+                        <button class="btn-custom">HTML</button>
+                        <button class="btn-custom">CSS</button>
+                        <button class="btn-custom">PHP</button>
+                        <button class="btn-custom">Jquery</button>
+                        <button class="btn-custom">Bootstrap</button>
+                        <button class="btn-custom">RWS</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <a href="https://lorry59100.github.io/infiniteScroll/">
+        <article class="card">
+            <span class="miniature"><img src="public/img/InfiniteScrollMini.jpg" alt=""></span>
+            <div class="content">
+                <h4>Infinite Scroll</h4>
+                <p>Démonstration de la fonctionnalité de défilement infini, où de nouveaux éléments de contenu sont chargés automatiquement lorsque l'utilisateur 
+                    atteint la fin de la page.</p>
+                    <div class="buttons">
+                        <button class="btn-custom">HTML</button>
+                        <button class="btn-custom">CSS</button>
+                        <button class="btn-custom">Javascript</button>
+                        <button class="btn-custom">API Flickr</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <a href="https://lorry59100.github.io/parallax/">
+        <article class="card">
+            <span class="miniature"><img src="public/img/ParallaxMini.jpg" alt=""></span>
+            <div class="content">
+                <h4>Parallax</h4>
+                <p>Démonstration d'un design web interactif utilisant l'effet de parallaxe pour créer une expérience visuelle immersive. 
+                    Lorsque l'utilisateur fait défiler la page, les éléments du site se déplacent à des vitesses différentes, 
+                    donnant l'illusion de profondeur et ajoutant un effet de mouvement dynamique.</p>
+                    <div class="buttons">
+                        <button class="btn-custom">HTML</button>
+                        <button class="btn-custom">CSS</button>
+                        <button class="btn-custom">GSAP</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    <a href="https://lorry59100.github.io/Dinos/">
+        <article class="card">
+            <span class="miniature"><img src="public/img/ScrollTriggerMini.jpg" alt=""></span>
+            <div class="content">
+                <h4>Scroll Trigger</h4>
+                <p>Démonstration d'une animation web interactive utilisant la bibliothèque GSAP (GreenSock Animation Platform). 
+                    Lorsque l'utilisateur fait défiler la page, des éléments du site sont animés avec des transitions fluides et dynamiques, 
+                    créant une expérience visuelle engageante.</p>
+                    <div class="buttons">
+                        <button class="btn-custom">HTML</button>
+                        <button class="btn-custom">CSS</button>
+                        <button class="btn-custom">GSAP</button>
+                    </div>
+            </div>
+        </article>
+    </a>
+    </main>
+    </div>
+    
+    <footer></footer>
 </body>
 </html>
