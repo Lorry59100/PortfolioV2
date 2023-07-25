@@ -133,6 +133,7 @@ section {
 .summary a, .info a {
     text-decoration: none; /* Pour supprimer le soulignement par défaut des liens */
     position: relative; /* Permet d'utiliser des positions absolues pour créer la bordure */
+    color: inherit;
 }
 
 /* Bordure pour le soulignement */
